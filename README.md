@@ -1,4 +1,4 @@
-# Nockchain - Optimized Mining Implementation
+# Nothing - Optimized Mining Implementation
 
 A high-performance implementation of the Nockchain mining system with GPU acceleration and network optimizations.
 
