@@ -1,0 +1,45 @@
+# Rust specific
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build artifacts
+*.o
+*.so
+*.dylib
+*.dll
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+log/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Project specific
+/hoon/test-jams/
+/hoon/dat/
+*.hoon.bk
+
+.data.*
+/hoonc
+test-leader
+test-follower
+.nockchain-identity
+.nockchain-identity.peerid
+target
+assets/*.jam
+!crates/nockapp/test-jams

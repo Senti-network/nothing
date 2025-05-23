@@ -1,0 +1,25 @@
+[gpu]
+enabled = true
+device_id = 0
+batch_size = 1000
+compute_capability = "8.0"  # Adjust based on your GPU
+
+[network]
+peer_batch_size = 10
+max_peers = 50
+latency_threshold = 1000  # ms
+
+[difficulty]
+target_block_time = 60  # seconds
+adjustment_window = 10  # blocks
+
+[logging]
+level = "info"
+file = "miner.log"
+max_size = 100  # MB
+max_files = 5
+
+[performance]
+threads = 8  # Number of CPU threads to use
+memory_pool_size = 1024  # MB
+gpu_memory_limit = 4096  # MB 
